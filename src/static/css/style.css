@@ -1,0 +1,229 @@
+body, #app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden; 
+}
+
+a{
+    color:rgb(128, 139, 162);
+}
+
+*::-webkit-scrollbar {
+  display: none; 
+}
+
+.el-table__header, .el-table__header{
+	height:100px!important;
+}
+
+.el-table__header-wrapper{
+	height:48px;
+}
+
+.el-table__header-wrapper  *{
+	height:80px;
+}
+
+.el-table th>.cell {
+	height:auto;
+    vertical-align: top!important;
+}
+.el-menu{
+    border-right:none!important;
+}
+/*  上传  */
+.avatar-uploader{
+   height: 140px;
+}
+.avatar-uploader .el-upload {
+    width: 100%;
+    height: 140px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 100px;
+    text-align: center;
+}
+
+.el-icon-plus{
+  vertical-align: top!important;
+  line-height: 140px!important;
+}
+
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+/*  表头居中  */
+.el-table th{
+    text-align: center!important;
+}
+/*  上传图片居中  */
+.avatar-uploader img{
+    margin:0 auto;
+}
+/*  弹出框  添加居民*/
+.addPeople .el-dialog{
+    margin:0 auto;
+    width:851px!important;
+    text-align: center;
+}
+.addPeople .el-dialog__header{
+    padding: 15px 0px 10px!important;
+    background:#00afba;
+    border-radius:4px 4px 0px 0px;
+    width:851px;
+    height:40px;
+    line-height: 40px;
+}
+.addPeople .el-dialog__header .el-dialog__title{
+    color:white;
+}
+.addPeople .el-dialog__body{
+    width:851px;
+    height:300px;
+    padding: 15px 0px 10px!important;
+}
+.addPeople .addPeopleTit>span{
+    font-family:MicrosoftYaHei;
+    font-size:14px;
+    color:#212121;
+}
+.addPeople .addPeopleTit>input{
+    margin:0 40px;
+    background:#ffffff;
+    border:1px solid #cccccc;
+    box-shadow:inset 0px 1px 0px 0px #ececec;
+    border-radius:3px;
+    width:252px;
+    height:32px;
+}
+.addPeople .addPeopleTit>button{
+    border:none;
+    font-family:MicrosoftYaHei;
+    font-size:14px;
+    color:#ffffff;
+    text-align:center;
+    background:#d9534f;
+    border-radius:3px;
+    width:81px;
+    height:30px;
+}
+/*  弹出框 备注  */
+.addremark .el-dialog{
+    margin:0 auto;
+    width:847px!important;
+    height: auto;
+    text-align: center;
+}
+.addremark .el-dialog__header{
+    padding: 15px 0px 10px!important;
+    background:#00afba;
+    border-radius:4px 4px 0px 0px;
+    width:847px;
+    height:30px;
+    line-height: 30px;
+}
+.addremark .el-dialog__header .el-dialog__title{
+    color:white;
+}
+.addremark .el-dialog__body{
+    padding: 0!important;
+    width:845px;
+    height:100px;
+}
+.addremark .el-dialog__footer{
+    padding: 0!important;
+    text-align: center;
+    width:847px;
+    height:60px;
+    line-height: 60px;
+}
+.addremark .el-dialog__footer button{
+    background:#01b0b9;
+    border:1px solid #01b0b9;
+    border-radius:5px;
+    width:127px;
+    height:40px;
+}
+.addremark_val{
+    margin:14px;
+    padding:0!important;
+    background:#ffffff;
+    border:1px solid #cccccc;
+    box-shadow:inset 0px 1px 0px 0px #ececec;
+    border-radius:3px;
+    width:709px;
+    height:68px;
+}
+/*  一口式轮播  */
+.entry_block{
+    padding:30px 0;  
+    width:100%;
+    height:180px;
+    line-height: 180px;
+    overflow: hidden;
+}
+.entry_block *{
+    height:180px;
+    line-height: 180px;
+}
+.content{
+    padding:0px 30px;
+    display: flex;
+    height:180px;
+    line-height: 180px;
+}
+.content h3{
+    flex:1;
+    width:278px;
+    height:180px;
+    line-height: 180px;
+}
+.entry_block .el-carousel__indicators{
+    display: none;
+}
+.el-carousel__container{
+    height: 180px!important;
+    line-height: 180px!important;
+}
+.el-carousel__arrow--left, .el-carousel__arrow--right{
+    line-height: 36px!important;
+}
+/*  分页  */
+.entry_pagination{
+    border:1px solid #dddddd;
+    border-radius:3px;
+    height:32px!important;
+}
+.entry_pagination .number{
+    background: none!important;
+    color:#428bca!important;
+    border:1px solid #dddddd;
+}
+.entry_pagination .active{
+    background:#428bca!important;
+    color:white!important;
+    width:33px!important;
+    height:30px!important;
+}
+.entry_pagination .btn-next, .entry_pagination .btn-prev{
+    background: none!important;
+    color:#428bca!important;
+    border:1px solid #dddddd;
+}

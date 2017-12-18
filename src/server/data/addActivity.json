@@ -1,0 +1,23 @@
+{
+    "name": "活动列表",
+    "list": [
+        {
+            "categoryId": "活动类别id",
+            "name": "今天是星期六",
+            "imagePath": "blob:http://localhost:8888/3434353f-831b-487f-8666-4a4c4ea2edb4",
+            "startDate": "2017-12-09T01:36:04.008Z",
+            "endDate": "2017-12-09T01:36:04.008Z",
+            "locationId": "地点id",
+            "locationName": "黑龙江省哈尔滨市道里区"
+        },
+        {
+            "categoryId": "活动类别id",
+            "name": "三鑫社区服务中心！！！",
+            "imagePath": "blob:http://localhost:8888/4e028f38-8cf3-4e02-a52b-e01b0698dee0",
+            "startDate": "2017-12-09T01:38:56.156Z",
+            "endDate": "2017-12-09T01:38:56.156Z",
+            "locationId": "地点id",
+            "locationName": "辽宁省锦州市北宁市"
+        }
+    ]
+}

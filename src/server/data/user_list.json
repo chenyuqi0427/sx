@@ -1,0 +1,20 @@
+{
+    "table_list": "账号注册",
+    "list": [
+        {
+            "user": "zhangsan",
+            "pasd": "123456",
+            "authorization":"visitor"
+        },
+        {
+            "user": "张三",
+            "pasd": "123456",
+            "authorization":"visitor"
+        },
+        {
+            "user": "陈宇琦",
+            "pasd": "123456",
+            "authorization":"admin"
+        }
+    ]
+}
